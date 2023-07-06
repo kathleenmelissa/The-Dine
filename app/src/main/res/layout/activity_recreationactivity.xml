@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recreationactivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Recreation Activities"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="142dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/steamrooms"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Steam Rooms"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Steam rooms are wet and tropical-like. They are usually lined with tile, glass, or plastic to make them airtight to hold in the moisture. They are heated to between 114 and 120 degrees and designed to maintain humidity from 95% to 100%."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--second card-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/fullbodysteaming" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full Body Steaming"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For many cultures, steaming has been embraced as a social ritual to relax and connect with others. But people quickly realized that the potential benefits of steam bathing extend beyond rest and relaxation. "
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="142dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/pool"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pool Table"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A basic game of pool can be loads of fun, but things can get really exciting when you start bringing in the different pool table games. These games are great for sprucing up the game of pool, but they also come with several social benefits. Here are just a few of the social benefits of pool table games."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/swimmingpool" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Swimming Pool"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Come for a swim in our deep and shallow pools as you enjoy your stay with us. "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/swimminglessons" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Swimming Lessons"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The perfect time to learn how to swim is now! And we’re here to help. We offer swimming lessons with qualified instructors in Nairobi. Swimming is a great way to stay fit and healthy, and it’s a fun activity for the whole family."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/gamingroom" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Gaming Room"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All our guests who are gamers,you can exploit your gaming skills here and interact with other gamers."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/rooftopcinemas" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rooftop Cinema "
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We believe that all experiences should be memorable, which is why we are on a mission to transform nights at the movies to cinematic events like no other. "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/rooftoppicnics" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rooftop Picnics"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our team offers thoughtfully curated picnic experiences delivered with love, passion and attention to detail so you can create magical moments with your loved ones."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image9"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/gym" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gym"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We believe everyone should be able to enjoy a fit and healthy lifestyle. So we have made it simple and convenient for you to achieve your personal health goals.
+Whether you want to lose weight, tone up, gain muscle or improve strength, we have a huge selection of equipment and FREE Fitness Classes to help you achieve your fitness goals."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image10"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/malemassage" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Male Massage"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We understand that Kenyan men put lots of physical effort in providing and protecting. The After-Work massage is best in the evenings, after a long day at work. It helps the man relax and prepare for the next day."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image11"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/massagetherapy" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text=" Massage Therapy"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Come and experience a holistic full body massage meant to soothe the muscles, bring relaxation and improve blood circulation."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image13"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/yoga" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yoga"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="28dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It’s time to roll out your yoga mat and discover the combination of physical and mental exercises that for thousands of years have hooked yoga practitioners around the globe. The beauty of yoga is that you don’t have to be a yogi or yogini to reap the benefits."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

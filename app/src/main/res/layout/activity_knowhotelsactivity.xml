@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".knowhotelsactivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT THE-DINE"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="The-Dine by Sheraton is a mini branch hotel brand operated by Marriott International that targets business travelers and small conventions. As of June 30, 2020, Marriott opened The-Dine Hotel worldwide under the Four Points by Sheraton brand, with 53,054 rooms. In addition, Marriott had 130 planned hotels with 27,342 additional rooms.We are glad that our esteemed clients trust us as their number one hotel when it comes to 5 Star services. Consider The-Dine Hotel as one of us"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="135dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="OUR STANDARDS"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="With your safety, comfort, and trust as our highest priority, at Artcaffé we are constantly striving for excellence both in our products and services we deliver. Year on year we work hard to strengthen our systems and processes, and as a result, we have achieved some of the highest certifications in the industry. We recently achieved ISO 22000 status for our bakery, production, and logistics facility. This ISO certification is for the highest level of food safety management and is recognized and acclaimed internationally.
+
+As a leader in health, hygiene and food safety in Kenya for over a decade, we want to assure you that we are taking the current COVID-19 situation extremely seriously and would like to update you on some of the steps we have taken to ensure your well-being and safety...">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security."
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Email:thedinebysheraton@gmail.com"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Call:0734964863"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

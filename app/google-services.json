@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765818870729",
+    "project_id": "the-dine2",
+    "storage_bucket": "the-dine2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765818870729:android:dc0a2943a610d04f43e618",
+        "android_client_info": {
+          "package_name": "com.example.the_dine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765818870729-8tdle1d48dtj4dh0ioe8vtli30m8pgpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIhv8DpMe82d018-xnHUaMnfyfg_XgOrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765818870729-8tdle1d48dtj4dh0ioe8vtli30m8pgpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

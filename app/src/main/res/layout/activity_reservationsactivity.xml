@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservationsactivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Make reservations with us"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="142dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/room1"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stardom"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:text="Accommodation free private parking, a shared lounge and a terrace. The property features a bar, as well as a restaurant serving African cuisine. The accommodation features a 24-hour front desk, airport transfers, room service and free WiFi.
+Buffet and continental breakfast options are available daily at the accommodation."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <Button
+                        android:id="@+id/hotel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--second card-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/room2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Smoothers"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:text="The  room has air conditioning, a seating area, a flat-screen TV with satellite channels, a safety deposit box and a bathroom with a shower, free toiletries and a hairdryer also the rooms come with bed linen and towels."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <Button
+                        android:id="@+id/hotel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="142dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/room3"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Five Stones"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:text="Accommodation with a garden, free private parking, a shared lounge and a terrace. Each accommodation at the 4-star hotel has garden views, and guests can enjoy access to a restaurant and to a bar. The accommodation features a 24-hour front desk, airport transfers, room service and free WiFi.
+"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <Button
+                        android:id="@+id/hotel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/room4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Cyril IV"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:text="Guest rooms at the hotel are equipped with a flat-screen TV with satellite channels and a kitchenette. At The Residences at Karen each room comes with bed linen and towels.
+The accommodation offers an à la carte or Full English/Irish breakfast."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <Button
+                        android:id="@+id/hotel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/room5" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Sarova Home"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sarova Home offers accommodation with a restaurant, free private parking and a bar. This 4-star hotel offers a concierge service. The accommodation features a 24-hour front desk, airport transfers, room service and free WiFi."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <Button
+                        android:id="@+id/hotel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="VIP SUITES"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/suite" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Gigiri Lion  II"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gigiri Lion II features free WiFi throughout the property and views of garden in Nairobi. Featuring room service, a water park and a terrace. The property features an outdoor pool, fitness centre, sauna and garden.The hotel will provide guests with air-conditioned rooms with a desk,ahot tub, a coffee machine, a fridge, an oven, a safety deposit box, a flat-screen TV and a private bathroom with a shower."
+
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/suite1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Green Valley"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enjoy our elegant 40 m² guest rooms, designed in warm beige tones and tailored to the needs of private and business travelers alike. All rooms have a large marble bathroom, a double bed, air conditioning, an additional work area with free internet access and a walk-in closet."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/suite3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Spring Falls"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Starting from the comfortable king-size bed to the spacious walk-in closet, to the large marble bathroom with separate shower and bathtub.
+24 hour room service, bathrobe and slippers and, upon your request, the daily newspaper at your door – we don’t want you to lack anything."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/suite4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Victorian Era"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All the rooms have been furnished with a blend of style and functionality in mind. Simple painted walls mean rooms feel light, while surfaces feature a dark wood veneer, such as bedheads, shelves and wardrobes. Each room has an en suite shower room tucked behind a white wooden door. "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/vip1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Caramel "
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This hotel will meet your expectations. Chill-out and bar area available for you to relax. Coffee and tea facilities in all rooms, Wi-Fi, fitness and Privilege lounge. Meals and drinks available 24/7."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/vip2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Jungle Inn"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The rooms have en-suite facilities, with its own shower and toilet facilities making it a perfect place to stay. The beds have curtains and panels ensuring that your stay is private and comfortable."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/vip3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Vanilla Island"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The hotel is located in the city centre within 10 minutes walk from the (LN) and the downtown shopping area. With great location, close to business centres and tourist attractions, this hotel will meet your expectations."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/vip4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Paradise Lost"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The beds have curtains and panels ensuring that your stay is private and comfortable. The local transport links are great, we are located within 5 minutes walking distance from either towns."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/vipfurniture" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Ginger Home"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="this hotel will meet your expectations. Chill-out and bar area available for you to relax. Coffee and tea facilities in all rooms, Wi-Fi, fitness and Privilege lounge. Meals and drinks available 24/7."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="MAKE MEMORIES WITH US"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/birthdayreservations" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Birthday Reservations"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Celebrate Your Birthdays with us!"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="149dp"
+                    android:layout_height="189dp"
+                    android:layout_row="0"
+                    android:layout_column="12"
+                    android:src="@drawable/images1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Parties"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Have Amazing Parties with us! "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <Button
+                        android:id="@+id/hotel17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Now"
+                        android:backgroundTint="#D54D23"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
